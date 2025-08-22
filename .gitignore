@@ -1,0 +1,19 @@
+# Node
+node_modules
+.dist
+build
+coverage
+*.log
+
+# Python
+__pycache__
+*.pyc
+.venv
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+frontend/dist
