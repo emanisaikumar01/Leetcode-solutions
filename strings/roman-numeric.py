@@ -18,7 +18,7 @@ class Solution(object):
         n = len(s)
 
         for i in range(n):
-            # If current is smaller than next, subtract it
+           
             if i < n - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
                 total -= roman_map[s[i]]
             else:
